@@ -1,0 +1,69 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+#wrepper {
+  margin: 200px auto;
+  padding: 0;
+  width: 1024px;
+  z-index: 0;
+}
+.content {
+  height: 1024px;
+  position: relative;
+  z-index: 500;
+}
+.horizontalMenu {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  position: relative;
+  margin: -1px 0 0 0px;
+  justify-content: flex-start;
+}
+.horizontal-tab {
+  padding: 9px 15px;
+  margin: 1px 0 0 1px;
+  background: #61AF6A;
+  color: #FFF;
+  position: relative;
+  border: solid #61AF6A;
+  border-width: 2px 2px 0;
+  border-radius: 5px 5px 0 0;
+  text-align: center;
+  z-index: 0;
+}
+.horizontal-tab:hover {
+  border-color: #7DCA86;
+  background-color: #7DCA86;
+}
+.top-content {
+  display: none;
+}
+.top-content.work {
+  display: block;
+  width: 700px;
+  border: 2px solid #7DCA86;
+  border-radius: 0 5px 5px 5px;
+  z-index: 1000;
+  padding: 9px 15px;
+  margin: 1px 0 0 1px;
+}
+.horizontal-tab.work {
+  padding: 9px 15px;
+  margin: 1px 0 -3px 1px;
+  background: white;
+  color: black;
+  position: relative;
+  border: solid #7DCA86;
+  border-width: 2px 2px 0;
+  border-radius: 5px 5px 0 0;
+  text-align: center;
+  border-bottom-color: white;
+  z-index: 9999;
+}
+#selection-sity {
+  border-radius: 5px;
+}
